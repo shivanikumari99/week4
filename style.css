@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body
+  {
+     background-image: linear-gradient(52deg, #000000 50%, #4d70ff 46%, #550160 20%);
+  }
+  #list
+  {
+    list-style:none;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+     cursor:pointer;
+     margin:auto;
+    font-size:22px;
+  }
+  li 
+  {
+    margin-right:15px;
+     cursor:pointer;
+    margin-top:10px;
+  }
+  
+  /* products page css */
+  #subItems
+  {
+    list-style:none;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+     background-image: linear-gradient(52deg, #05249e 30%, #550160 50%);
+    color:white;
+    height:100%;
+    width:20%;
+  }
+  
+  #subItems li
+  {
+    margin-top:20px;
+    margin-bottom:120px;
+    cursor:pointer;
+    font-size:25px;
+  }
+  #Details
+  {
+    display:flex;
+    justify-content:flex-start;
+  }
+  #ele_page
+  {
+    width:70vw;
+    height:100vh;
+    margin:auto;
+  }
+  
+  #Items_electronics
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  #Items_electronics img
+  {
+    width:400px;
+    height:300px;
+  }
+  
+  #text
+  {
+    text-align:center;
+    height:100%;
+  color:white;
+  margin-top:20px;
+  }
+  h1{
+    text-align:center;
+    text-transform: uppercase;
+    margin-top:20px;
+    color:white;
+  }
+  
+  #text
+  { 
+    word-spacing:3px;
+    letter-spacing:2px;
+    font-size:20px;
+  }
+  h3
+  {
+    padding-right:450px;
+  }
+  
+  p
+  {
+    margin-top:20px;
+    margin-bottom:45px;
+    font-size:15px;
+    font-weight:600;
+  }
+  
+  #price
+  {
+    font-size:30px;
+  }
+  
+  #container
+  {
+      background-color:black;
+     color:white;
+      height:10vh;
+  }
